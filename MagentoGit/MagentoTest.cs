@@ -4,6 +4,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
 
 namespace MagentoGit
 {
@@ -15,7 +16,7 @@ namespace MagentoGit
             IWebDriver driver = null;
             try
             {
-                driver = new ChromeDriver(@"D:\Mine\Company\Maveric\Driver");
+                driver = new InternetExplorerDriver(@"D:\Mine\Company\Maveric\Driver");
                 driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
                 driver.Url = "https://magento.com/";
 

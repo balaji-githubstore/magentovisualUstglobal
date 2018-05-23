@@ -88,10 +88,10 @@ namespace MagentoGit
 
 
         }
-        [Test, Parallelizable]
-        public void ValidCredential3()
-        {
-            Assert.Fail();
-        }
+//         [Test, Parallelizable]
+//         public void ValidCredential3()
+//         {
+//             Assert.Fail();
+//         }
     }
 }
